@@ -1,0 +1,278 @@
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{\section{Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data Class Reference}
+\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}\index{Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data@{Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data}}
+}
+
+
+Data for the pool.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ab4f4d52cc8cb6a59c0fdd6daa9c9cdf2}{Pool\-Data} (Game\-Object \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a07ccce81192461026b94dc8f9aa8d818}{prefab})
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+the interval for the calling process. \end{quotation}
+\end{DoxyCompactList}\item 
+\hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abcd63a91c1b5673604ac149779b142ed}{Pool\-Data} (Game\-Object \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a07ccce81192461026b94dc8f9aa8d818}{prefab}, int \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a184e81d595ad9455d412f67162c7b1c9}{max\-Count}, int \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aa54efc2b91d459428c230443d6ccac7b}{batch\-Create\-Count}, bool \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a060629295fb510de44ccd4e7ab0a41f1}{cull\-Inactive}, float \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a174300eacbde77efbf917eff6e209def}{cull\-Interval})
+\item 
+override bool \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aaf16cf568e44f193ae721b481185310e}{Equals} (object obj)
+\item 
+override int \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3126d28f0ed3f68d86a28b1df2753715}{Get\-Hash\-Code} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a9727c6c6a5cbf285ceefcd313abd562f}{operator==} (\hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data1, \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data2)
+\item 
+static bool \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3e8985baca762d6295fe20d3dab387e4}{operator!=} (\hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data1, \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data2)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\-Object \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a07ccce81192461026b94dc8f9aa8d818}{prefab}
+\item 
+int \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a184e81d595ad9455d412f67162c7b1c9}{max\-Count} = 0
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+game object to clone \end{quotation}
+\end{DoxyCompactList}\item 
+int \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aa54efc2b91d459428c230443d6ccac7b}{batch\-Create\-Count} = 5
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+max number of clones \end{quotation}
+\end{DoxyCompactList}\item 
+bool \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a060629295fb510de44ccd4e7ab0a41f1}{cull\-Inactive} = false
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+number of clones to create when new objects are needed. \end{quotation}
+\end{DoxyCompactList}\item 
+float \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a174300eacbde77efbf917eff6e209def}{cull\-Interval} = 10f
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+if culling of incactive objects is desired. \end{quotation}
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data for the pool. 
+
+Definition at line 23 of file Simple\-Pool.\-cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ab4f4d52cc8cb6a59c0fdd6daa9c9cdf2}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Pool\-Data@{Pool\-Data}}
+\index{Pool\-Data@{Pool\-Data}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Pool\-Data}]{\setlength{\rightskip}{0pt plus 5cm}Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Pool\-Data (
+\begin{DoxyParamCaption}
+\item[{Game\-Object}]{prefab}
+\end{DoxyParamCaption}
+)}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ab4f4d52cc8cb6a59c0fdd6daa9c9cdf2}
+
+
+\begin{quotation}
+the interval for the calling process. \end{quotation}
+
+
+Constructor for \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Game\-Object} & to be cloned \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file Simple\-Pool.\-cs.
+
+
+
+Here is the caller graph for this function\-:
+
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abcd63a91c1b5673604ac149779b142ed}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Pool\-Data@{Pool\-Data}}
+\index{Pool\-Data@{Pool\-Data}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Pool\-Data}]{\setlength{\rightskip}{0pt plus 5cm}Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Pool\-Data (
+\begin{DoxyParamCaption}
+\item[{Game\-Object}]{prefab, }
+\item[{int}]{max\-Count, }
+\item[{int}]{batch\-Create\-Count, }
+\item[{bool}]{cull\-Inactive, }
+\item[{float}]{cull\-Interval}
+\end{DoxyParamCaption}
+)}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abcd63a91c1b5673604ac149779b142ed}
+Constructor for \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Game\-Object} & to be cloned \\
+\hline
+{\em int} & max\-Count clone \\
+\hline
+{\em int} & batch\-Create\-Count to clone when new objects are required \\
+\hline
+{\em bool} & cull inactive objects \\
+\hline
+{\em float} & the cull interval \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file Simple\-Pool.\-cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aaf16cf568e44f193ae721b481185310e}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Equals@{Equals}}
+\index{Equals@{Equals}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Equals}]{\setlength{\rightskip}{0pt plus 5cm}override bool Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Equals (
+\begin{DoxyParamCaption}
+\item[{object}]{obj}
+\end{DoxyParamCaption}
+)}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aaf16cf568e44f193ae721b481185310e}
+Equals override
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data}} & object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if objects are equal. 
+\end{DoxyReturn}
+
+
+Definition at line 82 of file Simple\-Pool.\-cs.
+
+
+
+Here is the call graph for this function\-:
+
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3126d28f0ed3f68d86a28b1df2753715}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Get\-Hash\-Code@{Get\-Hash\-Code}}
+\index{Get\-Hash\-Code@{Get\-Hash\-Code}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Get\-Hash\-Code}]{\setlength{\rightskip}{0pt plus 5cm}override int Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Get\-Hash\-Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3126d28f0ed3f68d86a28b1df2753715}
+generate hash code
+
+\begin{DoxyReturn}{Returns}
+int hashcode. 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3e8985baca762d6295fe20d3dab387e4}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}static bool Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-operator!= (
+\begin{DoxyParamCaption}
+\item[{{\bf Pool\-Data}}]{data1, }
+\item[{{\bf Pool\-Data}}]{data2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3e8985baca762d6295fe20d3dab387e4}
+is not equal to operator
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+{\em Second} & \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if objects are equal. 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a9727c6c6a5cbf285ceefcd313abd562f}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!operator==@{operator==}}
+\index{operator==@{operator==}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}static bool Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Pool\-Data}}]{data1, }
+\item[{{\bf Pool\-Data}}]{data2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a9727c6c6a5cbf285ceefcd313abd562f}
+is equal to operator
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+{\em Second} & \hyperlink{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if objects are equal. 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file Simple\-Pool.\-cs.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aa54efc2b91d459428c230443d6ccac7b}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!batch\-Create\-Count@{batch\-Create\-Count}}
+\index{batch\-Create\-Count@{batch\-Create\-Count}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{batch\-Create\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-batch\-Create\-Count = 5}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_aa54efc2b91d459428c230443d6ccac7b}
+
+
+\begin{quotation}
+max number of clones \end{quotation}
+
+
+
+
+Definition at line 27 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a060629295fb510de44ccd4e7ab0a41f1}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!cull\-Inactive@{cull\-Inactive}}
+\index{cull\-Inactive@{cull\-Inactive}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{cull\-Inactive}]{\setlength{\rightskip}{0pt plus 5cm}bool Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-cull\-Inactive = false}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a060629295fb510de44ccd4e7ab0a41f1}
+
+
+\begin{quotation}
+number of clones to create when new objects are needed. \end{quotation}
+
+
+
+
+Definition at line 28 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a174300eacbde77efbf917eff6e209def}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!cull\-Interval@{cull\-Interval}}
+\index{cull\-Interval@{cull\-Interval}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{cull\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}float Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-cull\-Interval = 10f}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a174300eacbde77efbf917eff6e209def}
+
+
+\begin{quotation}
+if culling of incactive objects is desired. \end{quotation}
+
+
+
+
+Definition at line 29 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a184e81d595ad9455d412f67162c7b1c9}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!max\-Count@{max\-Count}}
+\index{max\-Count@{max\-Count}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{max\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-max\-Count = 0}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a184e81d595ad9455d412f67162c7b1c9}
+
+
+\begin{quotation}
+game object to clone \end{quotation}
+
+
+
+
+Definition at line 26 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a07ccce81192461026b94dc8f9aa8d818}{\index{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!prefab@{prefab}}
+\index{prefab@{prefab}!Hostile::SimplePool::SimplePool::PoolData@{Hostile\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{prefab}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Object Hostile.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-prefab}}\label{class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a07ccce81192461026b94dc8f9aa8d818}
+
+
+Definition at line 25 of file Simple\-Pool.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Anthony/\-Game\-\_\-\-Development/\-Unity\-\_\-\-Projects/\-Hostile/\-Assets/\-Hostile/\-Simpel\-Pool/\hyperlink{_simple_pool_8cs}{Simple\-Pool.\-cs}\end{DoxyCompactItemize}
