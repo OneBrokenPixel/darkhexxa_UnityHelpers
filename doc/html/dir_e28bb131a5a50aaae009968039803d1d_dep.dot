@@ -1,0 +1,9 @@
+digraph "C:/Users/Anthony/Game_Development/Unity_Projects/Hostile/Assets/Hostile/Core" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5fa1efae0aeb32b57d582be1e4d4bc67 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Hostile" fontname="Helvetica", fontsize="10", URL="dir_5fa1efae0aeb32b57d582be1e4d4bc67.html"]
+  dir_e28bb131a5a50aaae009968039803d1d [shape=box, label="Core", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e28bb131a5a50aaae009968039803d1d.html"];
+  }
+}

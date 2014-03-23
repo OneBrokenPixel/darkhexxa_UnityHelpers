@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Hostile.SimplePool.Simple\lPool.PoolData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_hostile_1_1_simple_pool_1_1_simple_pool_1_1_pool_data.html",tooltip="Data for the pool. "];
+}
