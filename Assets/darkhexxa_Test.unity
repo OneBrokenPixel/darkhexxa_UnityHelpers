@@ -82,6 +82,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 336800551}
+  - 114: {fileID: 336800552}
   m_Layer: 0
   m_Name: Unity_pool
   m_TagString: Untagged
@@ -100,6 +101,23 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &336800552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 336800550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd02e41409da44a296abd0d61ef0b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    prefab: {fileID: 100000, guid: 7219a1b22b604064a93a747e6b76a784, type: 2}
+    maxCount: 0
+    batchCreateCount: 5
+    cullInactive: 1
+    cullInterval: 10
 --- !u!1 &556571426
 GameObject:
   m_ObjectHideFlags: 0
