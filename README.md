@@ -47,13 +47,13 @@ Once you have a SimplePool object in your script you can spawn an object in the 
 ```sh
 public GameObject Spawn()
 ```
-Returns a GameObject at the SimplePools position with its own rotation.
+Returns a GameObject at the SimplePool's position with its own rotation.
 ```sh
 public GameObject Spawn( Vector3 position, Quaternion rotation )
 ```
-Returns a GameObject at the position and with the rotation provided.
+Returns a GameObject at the position and rotation specified.
 
-Once spawned the object can be despawned by passing the game object back with the despawn method.
+Once spawned the GameObject can be despawned by passing the GameObject back to the despawn method.
 ```sh
 public void Despawn(GameObject obj)
 ```
@@ -69,7 +69,7 @@ Pool property for storing the pool that created this object.
 ```sh
 public void OnCreatedByPool( SimplePool pool )
 ```
-A method that is called when an object is created by a pool before being spawned. It passes in the SimplePool object so that this script can despawn its self.
+A method that is called when an object is created by a pool before being spawned. It passes in the SimplePool object so that this script can despawn itself.
 ```sh
 public abstract void OnSpawn();
 ```
