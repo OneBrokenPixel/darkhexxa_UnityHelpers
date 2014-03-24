@@ -9,7 +9,7 @@ Create Pool Method 1
 --------
 Create an empty GameObject and add component DarkHexxa->SimplePool->Pool
 
-In the SimplePool Component you have access to the follwoing settings under data:
+In the SimplePool Component you have access to the following settings under data:
   - Prefab – the game object to be cloned.
   - Max Count – the maximum number of game object this pool can spawn. 0 = infinite (not really).
   - Batch Create Count – the number of objects that will be created when the pool requires more game objects.
