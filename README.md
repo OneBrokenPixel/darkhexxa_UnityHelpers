@@ -14,7 +14,7 @@ In the SimplePool Component you have access to the following settings under data
   - Max Count – the maximum number of game object this pool can spawn. 0 = unlimited.
   - Batch Create Count – the number of objects that will be created when the pool requires more game objects.
   - Cull Inactive – starts a coroutine that will periodically cull the inactive objects.
-  - Cull Interval – the time period in seconds of the cull events.
+  - Cull Interval – the time period in seconds between the cull events.
 
 Create Pool Method 2
 -----------
