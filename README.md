@@ -7,9 +7,9 @@ Using Simple Pool
 =========
 Create Pool Method 1
 --------
-In Unity create an empty game object and Add Component DarkHexxa->SimplePool->Pool
+Create an empty GameObject and add component DarkHexxa->SimplePool->Pool
 
-Under data:
+In the SimplePool Component you can have access to the follwoing settings under data:
   - Prefab – the game object to be cloned.
   - Max Count – the maximum number of game object this pool can spawn. 0 = infinite (not really).
   - Batch Create Count – the number of objects that will be created when the pool requires more game objects.
@@ -18,11 +18,32 @@ Under data:
 
 Create Pool Method 2
 -----------
-In a C# script is possible to create/find a pool using the static functions in SimplePool.
+In a C# script it is possible to create/find a pool using the static functions in SimplePool.
+
+```sh
+public static SimplePool FindPoolFor(GameObject prefab)
+public static System.Collections.Generic.IEnumerable<SimplePool> FindAllPoolsFor(GameObject prefab)
+```
+Returns a pool or a list of pools that generate the prefabs provided.
+
+```sh
+public static SimplePool FindPoolFor(PoolData data)
+public static System.Collections.Generic.IEnumerable<SimplePool> FindAllPoolsFor(PoolData data)
+```
+Returns a pool or a list of pools that match PollData object provided. The PoolData object contains the settings for the SimplePool.
+```sh
+public static SimplePool CreatePool(GameObject prefab)
+public static SimplePool CreatePool(GameObject prefab, int maxCount, int batchCreateCount, bool cullInactive, float cullInterval)
+public static SimplePool CreatePool(string gameObjectName, GameObject prefab)
+public static SimplePool CreatePool(string gameObjectName, GameObject prefab, int maxCount, int batchCreateCount, bool cullInactive, float cullInterval)
+public static SimplePool CreatePool(PoolData data)
+public static SimplePool CreatePool(string gameObjectName, PoolData data)       
+```
+Create functions look for matching Pools before they create a new pool returning either the pool that has been found or a new pool.
 
 Spawning/Despawning Objects
 --------------
-Once you have a SimplePool object in your script you can spawn an object in the pool by calling one of the pawn methods.
+Once you have a SimplePool object in your script you can spawn an object in the pool by calling one of the spawn methods.
 ```sh
 public GameObject Spawn()
 ```
