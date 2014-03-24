@@ -1,4 +1,4 @@
-Using Simple Pool
+Using Simple Pool {#mainpage}
 =========
 Create Pool Method 1
 --------
