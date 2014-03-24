@@ -13,7 +13,7 @@ namespace Darkhexxa
           * Simple Pool Component
           * give it a game object and it will spawn clones.
           */
-		[AddComponentMenu("Hostile/SimplePool/Pool")]
+		[AddComponentMenu("DarkHexxa/SimplePool/Pool")]
 		public class SimplePool : MonoBehaviour
 		{
             /**
@@ -297,6 +297,8 @@ namespace Darkhexxa
 				_inactive = new ComponentList ();
 				_active = new ComponentList ();
 				StartCoroutine (CullRoutine ());
+
+                AddNewGameObjects();
 				/*
 				for(int i = 0; i < 6; i++)
 					Spawn();

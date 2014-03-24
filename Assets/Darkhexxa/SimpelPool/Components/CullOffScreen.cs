@@ -11,7 +11,7 @@ namespace Darkhexxa
             /**
               * @brief A base pool component that despawns the attached object when it goes off screen.
               */
-			[AddComponentMenu("Hostile/SimplePool/Components/Cull Off Screen")]
+            [AddComponentMenu("DarkHexxa/SimplePool/Components/Cull Off Screen")]
 			public class CullOffScreen :  BasePoolComponent{
 				#region implemented abstract members of BasePoolComponent
 

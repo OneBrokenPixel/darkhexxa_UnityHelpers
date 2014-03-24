@@ -17,7 +17,7 @@ namespace Darkhexxa
         /**
           * @brief empty list class used to destinguash the pool lists from another list the objects might be in.
           */
-		[AddComponentMenu("Hostile/SimplePool/Components/Pool Listable Component")]
+        [AddComponentMenu("DarkHexxa/SimplePool/Components/Pool Listable Component")]
 		public class PoolListableComponent : ListableComponent
 		{
 		}
