@@ -11,7 +11,7 @@ Create an empty GameObject and add component DarkHexxa->SimplePool->Pool
 
 In the SimplePool Component you have access to the following settings under data:
   - Prefab – the game object to be cloned.
-  - Max Count – the maximum number of game object this pool can spawn. 0 = infinite (not really).
+  - Max Count – the maximum number of game object this pool can spawn. 0 = unlimited.
   - Batch Create Count – the number of objects that will be created when the pool requires more game objects.
   - Cull Inactive – starts a coroutine that will periodically cull the inactive objects.
   - Cull Interval – the time period in seconds of the cull events.
