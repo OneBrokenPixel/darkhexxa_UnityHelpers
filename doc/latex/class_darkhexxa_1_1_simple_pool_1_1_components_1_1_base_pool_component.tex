@@ -1,0 +1,95 @@
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component}{\section{Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component Class Reference}
+\label{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component}\index{Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component@{Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component}}
+}
+
+
+Abstact Base class for Game\-Objects created by pools.  
+
+
+Inheritance diagram for Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_ad964a83becdd44af7ba763293d7f5e75}{On\-Created\-By\-Pool} (\hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool}{Simple\-Pool} \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a998b7d9d011951e36f93a020fe788022}{pool})
+\item 
+abstract void \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a7173f329105a68229c0c4de3e08faf20}{On\-Spawn} ()
+\item 
+abstract void \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a23947e638a808f92c5f4206ffcba8ec2}{On\-Despawn} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool}{Simple\-Pool} \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a998b7d9d011951e36f93a020fe788022}{pool}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstact Base class for Game\-Objects created by pools. 
+
+Definition at line 24 of file Base\-Pool\-Component.\-cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_ad964a83becdd44af7ba763293d7f5e75}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}!On\-Created\-By\-Pool@{On\-Created\-By\-Pool}}
+\index{On\-Created\-By\-Pool@{On\-Created\-By\-Pool}!Darkhexxa::SimplePool::Components::BasePoolComponent@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}}
+\subsubsection[{On\-Created\-By\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}void Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component.\-On\-Created\-By\-Pool (
+\begin{DoxyParamCaption}
+\item[{{\bf Simple\-Pool}}]{pool}
+\end{DoxyParamCaption}
+)}}\label{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_ad964a83becdd44af7ba763293d7f5e75}
+{\bfseries function} called by \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool}{Simple\-Pool} when an object is cloned.
+
+Allows code to be implemented when this object is added to the scene but is not yet active.
+
+
+\begin{DoxyParams}{Parameters}
+{\em the} & simple pool that created this object. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file Base\-Pool\-Component.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a23947e638a808f92c5f4206ffcba8ec2}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}!On\-Despawn@{On\-Despawn}}
+\index{On\-Despawn@{On\-Despawn}!Darkhexxa::SimplePool::Components::BasePoolComponent@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}}
+\subsubsection[{On\-Despawn}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component.\-On\-Despawn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a23947e638a808f92c5f4206ffcba8ec2}
+{\bfseries abstract} function that is called when the object is removed and becomes inactive. 
+
+Implemented in \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_cull_off_screen_a5f4a09e2cb31817af47ed394f4482bec}{Darkhexxa.\-Simple\-Pool.\-Components.\-Cull\-Off\-Screen}.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a7173f329105a68229c0c4de3e08faf20}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}!On\-Spawn@{On\-Spawn}}
+\index{On\-Spawn@{On\-Spawn}!Darkhexxa::SimplePool::Components::BasePoolComponent@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}}
+\subsubsection[{On\-Spawn}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component.\-On\-Spawn (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a7173f329105a68229c0c4de3e08faf20}
+{\bfseries abstract} function that is called when the object is spawned and becomes active. 
+
+Implemented in \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_cull_off_screen_ad85eb1ac683e2368d1aa96c18bd9d317}{Darkhexxa.\-Simple\-Pool.\-Components.\-Cull\-Off\-Screen}.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a998b7d9d011951e36f93a020fe788022}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}!pool@{pool}}
+\index{pool@{pool}!Darkhexxa::SimplePool::Components::BasePoolComponent@{Darkhexxa\-::\-Simple\-Pool\-::\-Components\-::\-Base\-Pool\-Component}}
+\subsubsection[{pool}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Simple\-Pool} Darkhexxa.\-Simple\-Pool.\-Components.\-Base\-Pool\-Component.\-pool\hspace{0.3cm}{\ttfamily [get]}}}\label{class_darkhexxa_1_1_simple_pool_1_1_components_1_1_base_pool_component_a998b7d9d011951e36f93a020fe788022}
+{\bfseries the} pool component that spawned this object. 
+
+Definition at line 31 of file Base\-Pool\-Component.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Anthony/\-Game\-\_\-\-Development/\-Unity\-\_\-\-Projects/\-Darkhexxa/\-Assets/\-Darkhexxa/\-Simpel\-Pool/\-Components/\hyperlink{_base_pool_component_8cs}{Base\-Pool\-Component.\-cs}\end{DoxyCompactItemize}

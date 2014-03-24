@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['remove',['Remove',['../class_hostile_1_1_core_1_1_component_list.html#a7f8d809541740981502154823c9ce1f0',1,'Hostile::Core::ComponentList']]],
-  ['removeheadgo',['RemoveHeadGO',['../class_hostile_1_1_core_1_1_component_list.html#a0d4f29a0d2b8056b857685ffa77c8f61',1,'Hostile::Core::ComponentList']]],
-  ['removetailgo',['RemoveTailGO',['../class_hostile_1_1_core_1_1_component_list.html#a44274c8d99a24d0505bce9ba7d2c4b1e',1,'Hostile::Core::ComponentList']]]
+  ['remove',['Remove',['../class_darkhexxa_1_1_core_1_1_component_list.html#a47f636d5d6dc55dabb3e832de5fe2569',1,'Darkhexxa::Core::ComponentList']]],
+  ['removeheadgo',['RemoveHeadGO',['../class_darkhexxa_1_1_core_1_1_component_list.html#a4baff132dc5c3de864a6b2e30a6a3212',1,'Darkhexxa::Core::ComponentList']]],
+  ['removetailgo',['RemoveTailGO',['../class_darkhexxa_1_1_core_1_1_component_list.html#a80ab55bc996e84f373fedceeb188f76e',1,'Darkhexxa::Core::ComponentList']]]
 ];

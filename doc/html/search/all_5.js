@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['findallpoolsfor',['FindAllPoolsFor',['../class_hostile_1_1_simple_pool_1_1_simple_pool.html#aee3976823adab2701771b693b934b45b',1,'Hostile.SimplePool.SimplePool.FindAllPoolsFor(GameObject prefab)'],['../class_hostile_1_1_simple_pool_1_1_simple_pool.html#a7230180c05d43318ad9101996a947cb5',1,'Hostile.SimplePool.SimplePool.FindAllPoolsFor(PoolData data)']]],
-  ['findpoolfor',['FindPoolFor',['../class_hostile_1_1_simple_pool_1_1_simple_pool.html#a8f57d91dc667ea0c0192b2f0f163edac',1,'Hostile.SimplePool.SimplePool.FindPoolFor(GameObject prefab)'],['../class_hostile_1_1_simple_pool_1_1_simple_pool.html#ae43d8a26560d9f0962a1cc383464c3fe',1,'Hostile.SimplePool.SimplePool.FindPoolFor(PoolData data)']]]
+  ['findallpoolsfor',['FindAllPoolsFor',['../class_darkhexxa_1_1_simple_pool_1_1_simple_pool.html#a40a74364e51c2eedf108b8a375f22709',1,'Darkhexxa.SimplePool.SimplePool.FindAllPoolsFor(GameObject prefab)'],['../class_darkhexxa_1_1_simple_pool_1_1_simple_pool.html#ab29a9b60515daff5ac4ca620546e5fc9',1,'Darkhexxa.SimplePool.SimplePool.FindAllPoolsFor(PoolData data)']]],
+  ['findpoolfor',['FindPoolFor',['../class_darkhexxa_1_1_simple_pool_1_1_simple_pool.html#a160f842c9441fb80243a9813492e7d08',1,'Darkhexxa.SimplePool.SimplePool.FindPoolFor(GameObject prefab)'],['../class_darkhexxa_1_1_simple_pool_1_1_simple_pool.html#afbfdaaf049c575ddae1aa1343ddc08a5',1,'Darkhexxa.SimplePool.SimplePool.FindPoolFor(PoolData data)']]]
 ];

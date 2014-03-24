@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Hostile", "index.html", [
+  [ "DarkHexxa_UnityPackage", "index.html", [
     [ "Packages", null, [
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],

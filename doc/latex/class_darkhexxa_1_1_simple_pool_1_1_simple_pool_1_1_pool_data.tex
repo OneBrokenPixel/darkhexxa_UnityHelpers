@@ -1,0 +1,268 @@
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{\section{Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data Class Reference}
+\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}\index{Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data@{Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data}}
+}
+
+
+Data for the pool.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a362fa5c969fb8230d2248dd6d8590b65}{Pool\-Data} (Game\-Object \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_afeeca245f87b8bef8c5a954c7b78011c}{prefab})
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+the interval for the calling process. \end{quotation}
+\end{DoxyCompactList}\item 
+\hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a0b538556ad116b32f300845651d86a30}{Pool\-Data} (Game\-Object \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_afeeca245f87b8bef8c5a954c7b78011c}{prefab}, int \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ae2d66b8c6f3d77721c5ca3474cac1311}{max\-Count}, int \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a7277e7f63a6189198b789f74db585a94}{batch\-Create\-Count}, bool \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a19c48ea469a33d4188a996482939d665}{cull\-Inactive}, float \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abf0fe104db5c39105f7c88dca1581bc1}{cull\-Interval})
+\item 
+override bool \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3b57abc0a9ad8594aba92e4987869e72}{Equals} (object obj)
+\item 
+override int \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ac38a6df31961bb203a80c01d5d4b855c}{Get\-Hash\-Code} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a2ec19cce5e6f1b26aa952c5301b98fef}{operator==} (\hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data1, \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data2)
+\item 
+static bool \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_addc62fa3d584aa771c25dcefa4a18986}{operator!=} (\hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data1, \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} data2)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\-Object \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_afeeca245f87b8bef8c5a954c7b78011c}{prefab}
+\item 
+int \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ae2d66b8c6f3d77721c5ca3474cac1311}{max\-Count} = 0
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+game object to clone \end{quotation}
+\end{DoxyCompactList}\item 
+int \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a7277e7f63a6189198b789f74db585a94}{batch\-Create\-Count} = 5
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+max number of clones \end{quotation}
+\end{DoxyCompactList}\item 
+bool \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a19c48ea469a33d4188a996482939d665}{cull\-Inactive} = false
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+number of clones to create when new objects are needed. \end{quotation}
+\end{DoxyCompactList}\item 
+float \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abf0fe104db5c39105f7c88dca1581bc1}{cull\-Interval} = 10f
+\begin{DoxyCompactList}\small\item\em \begin{quotation}
+if culling of incactive objects is desired. \end{quotation}
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data for the pool. 
+
+Definition at line 23 of file Simple\-Pool.\-cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a362fa5c969fb8230d2248dd6d8590b65}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Pool\-Data@{Pool\-Data}}
+\index{Pool\-Data@{Pool\-Data}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Pool\-Data}]{\setlength{\rightskip}{0pt plus 5cm}Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Pool\-Data (
+\begin{DoxyParamCaption}
+\item[{Game\-Object}]{prefab}
+\end{DoxyParamCaption}
+)}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a362fa5c969fb8230d2248dd6d8590b65}
+
+
+\begin{quotation}
+the interval for the calling process. \end{quotation}
+
+
+Constructor for \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Game\-Object} & to be cloned \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 36 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a0b538556ad116b32f300845651d86a30}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Pool\-Data@{Pool\-Data}}
+\index{Pool\-Data@{Pool\-Data}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Pool\-Data}]{\setlength{\rightskip}{0pt plus 5cm}Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Pool\-Data (
+\begin{DoxyParamCaption}
+\item[{Game\-Object}]{prefab, }
+\item[{int}]{max\-Count, }
+\item[{int}]{batch\-Create\-Count, }
+\item[{bool}]{cull\-Inactive, }
+\item[{float}]{cull\-Interval}
+\end{DoxyParamCaption}
+)}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a0b538556ad116b32f300845651d86a30}
+Constructor for \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Game\-Object} & to be cloned \\
+\hline
+{\em int} & max\-Count clone \\
+\hline
+{\em int} & batch\-Create\-Count to clone when new objects are required \\
+\hline
+{\em bool} & cull inactive objects \\
+\hline
+{\em float} & the cull interval \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 54 of file Simple\-Pool.\-cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3b57abc0a9ad8594aba92e4987869e72}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Equals@{Equals}}
+\index{Equals@{Equals}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Equals}]{\setlength{\rightskip}{0pt plus 5cm}override bool Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Equals (
+\begin{DoxyParamCaption}
+\item[{object}]{obj}
+\end{DoxyParamCaption}
+)}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a3b57abc0a9ad8594aba92e4987869e72}
+Equals override
+
+
+\begin{DoxyParams}{Parameters}
+{\em \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data}} & object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if objects are equal. 
+\end{DoxyReturn}
+
+
+Definition at line 82 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ac38a6df31961bb203a80c01d5d4b855c}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!Get\-Hash\-Code@{Get\-Hash\-Code}}
+\index{Get\-Hash\-Code@{Get\-Hash\-Code}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{Get\-Hash\-Code}]{\setlength{\rightskip}{0pt plus 5cm}override int Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-Get\-Hash\-Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ac38a6df31961bb203a80c01d5d4b855c}
+generate hash code
+
+\begin{DoxyReturn}{Returns}
+int hashcode. 
+\end{DoxyReturn}
+
+
+Definition at line 107 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_addc62fa3d584aa771c25dcefa4a18986}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}static bool Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-operator!= (
+\begin{DoxyParamCaption}
+\item[{{\bf Pool\-Data}}]{data1, }
+\item[{{\bf Pool\-Data}}]{data2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_addc62fa3d584aa771c25dcefa4a18986}
+is not equal to operator
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+{\em Second} & \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if objects are equal. 
+\end{DoxyReturn}
+
+
+Definition at line 96 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a2ec19cce5e6f1b26aa952c5301b98fef}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!operator==@{operator==}}
+\index{operator==@{operator==}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}static bool Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Pool\-Data}}]{data1, }
+\item[{{\bf Pool\-Data}}]{data2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a2ec19cce5e6f1b26aa952c5301b98fef}
+is equal to operator
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+{\em Second} & \hyperlink{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data}{Pool\-Data} object \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if objects are equal. 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file Simple\-Pool.\-cs.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a7277e7f63a6189198b789f74db585a94}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!batch\-Create\-Count@{batch\-Create\-Count}}
+\index{batch\-Create\-Count@{batch\-Create\-Count}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{batch\-Create\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-batch\-Create\-Count = 5}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a7277e7f63a6189198b789f74db585a94}
+
+
+\begin{quotation}
+max number of clones \end{quotation}
+
+
+
+
+Definition at line 27 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a19c48ea469a33d4188a996482939d665}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!cull\-Inactive@{cull\-Inactive}}
+\index{cull\-Inactive@{cull\-Inactive}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{cull\-Inactive}]{\setlength{\rightskip}{0pt plus 5cm}bool Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-cull\-Inactive = false}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_a19c48ea469a33d4188a996482939d665}
+
+
+\begin{quotation}
+number of clones to create when new objects are needed. \end{quotation}
+
+
+
+
+Definition at line 28 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abf0fe104db5c39105f7c88dca1581bc1}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!cull\-Interval@{cull\-Interval}}
+\index{cull\-Interval@{cull\-Interval}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{cull\-Interval}]{\setlength{\rightskip}{0pt plus 5cm}float Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-cull\-Interval = 10f}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_abf0fe104db5c39105f7c88dca1581bc1}
+
+
+\begin{quotation}
+if culling of incactive objects is desired. \end{quotation}
+
+
+
+
+Definition at line 29 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ae2d66b8c6f3d77721c5ca3474cac1311}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!max\-Count@{max\-Count}}
+\index{max\-Count@{max\-Count}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{max\-Count}]{\setlength{\rightskip}{0pt plus 5cm}int Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-max\-Count = 0}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_ae2d66b8c6f3d77721c5ca3474cac1311}
+
+
+\begin{quotation}
+game object to clone \end{quotation}
+
+
+
+
+Definition at line 26 of file Simple\-Pool.\-cs.
+
+\hypertarget{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_afeeca245f87b8bef8c5a954c7b78011c}{\index{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}!prefab@{prefab}}
+\index{prefab@{prefab}!Darkhexxa::SimplePool::SimplePool::PoolData@{Darkhexxa\-::\-Simple\-Pool\-::\-Simple\-Pool\-::\-Pool\-Data}}
+\subsubsection[{prefab}]{\setlength{\rightskip}{0pt plus 5cm}Game\-Object Darkhexxa.\-Simple\-Pool.\-Simple\-Pool.\-Pool\-Data.\-prefab}}\label{class_darkhexxa_1_1_simple_pool_1_1_simple_pool_1_1_pool_data_afeeca245f87b8bef8c5a954c7b78011c}
+
+
+Definition at line 25 of file Simple\-Pool.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Users/\-Anthony/\-Game\-\_\-\-Development/\-Unity\-\_\-\-Projects/\-Darkhexxa/\-Assets/\-Darkhexxa/\-Simpel\-Pool/\hyperlink{_simple_pool_8cs}{Simple\-Pool.\-cs}\end{DoxyCompactItemize}
