@@ -68,6 +68,18 @@ namespace Darkhexxa
                   */
                 public static bool operator == ( PoolData data1, PoolData data2 )
                 {
+                    // If both are null, or both are same instance, return true.
+                    if (System.Object.ReferenceEquals(data1, data2))
+                    {
+                        return true;
+                    }
+
+                    // If one is null, but not both, return false.
+                    if (((object)data1 == null) || ((object)data2 == null))
+                    {
+                        return false;
+                    }
+
                     return (      data1.prefab.Equals(data2.prefab)
                                && data1.maxCount == data2.maxCount
                                && data1.cullInactive == data2.cullInactive );
@@ -81,9 +93,20 @@ namespace Darkhexxa
                   */
                 public override bool Equals(object obj)
                 {
-                    return (this.prefab.Equals((obj as PoolData).prefab)
-                               && this.maxCount == (obj as PoolData).maxCount
-                               && this.cullInactive == (obj as PoolData).cullInactive);
+                    if (obj == null)
+                    {
+                        return false;
+                    }
+
+                    PoolData p = obj as PoolData;
+                    if ((System.Object)p == null)
+                    {
+                        return false;
+                    }
+
+                    return (this.prefab.Equals(p.prefab)
+                               && this.maxCount == p.maxCount
+                               && this.cullInactive == p.cullInactive);
                 }
 
                 /**
@@ -445,6 +468,7 @@ namespace Darkhexxa
             public static SimplePool CreatePool(string gameObjectName, GameObject prefab, int maxCount, int batchCreateCount, bool cullInactive, float cullInterval)
             {
                 PoolData data = new PoolData(prefab, maxCount, batchCreateCount, cullInactive, cullInterval);
+                
                 return CreatePool(gameObjectName, data);
             }
 
@@ -483,6 +507,7 @@ namespace Darkhexxa
                 {
                     GameObject obj = new GameObject(data.prefab.name + "_pool");
                     pool = obj.AddComponent<SimplePool>();
+                    pool.data = data;
                 }
 
                 return pool;

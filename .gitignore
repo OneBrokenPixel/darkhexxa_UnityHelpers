@@ -8,3 +8,5 @@
 *.sln
 *.DS_Store
 *.userprefs
+
+*.suo
