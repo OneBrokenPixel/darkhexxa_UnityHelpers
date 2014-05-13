@@ -308,19 +308,11 @@ namespace Darkhexxa
 			void Start ()
 			{
 
-                if (data.prefab != null)
-				{
-                    PoolListableComponent listable = data.prefab.GetComponent<PoolListableComponent>();
-					if( listable == null )
-					{
-                        data.prefab.AddComponent<PoolListableComponent>(); ///< adds a listable component to the prefab objects so the clones can be listed.
-					}
-				}
 
 
 				StartCoroutine (CullRoutine ());
 
-                AddNewGameObjects();
+
 				/*
 				for(int i = 0; i < 6; i++)
 					Spawn();
@@ -334,8 +326,20 @@ namespace Darkhexxa
               */
             void Awake()
             {
+
+                if ( data.prefab != null )
+                {
+                    PoolListableComponent listable = data.prefab.GetComponent<PoolListableComponent> ();
+                    if ( listable == null )
+                    {
+                        data.prefab.AddComponent<PoolListableComponent> (); ///< adds a listable component to the prefab objects so the clones can be listed.
+                    }
+                }
+
                 _inactive = new ComponentList ();
                 _active = new ComponentList ();
+
+                AddNewGameObjects ();
             }
 
             /**
