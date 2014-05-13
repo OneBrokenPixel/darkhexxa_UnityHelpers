@@ -317,8 +317,7 @@ namespace Darkhexxa
 					}
 				}
 
-				_inactive = new ComponentList ();
-				_active = new ComponentList ();
+
 				StartCoroutine (CullRoutine ());
 
                 AddNewGameObjects();
@@ -327,6 +326,17 @@ namespace Darkhexxa
 					Spawn();
 					*/
 			}
+
+            /**
+              * @brief set up active and inactive lists before start.
+              * 
+              * Sets the object pool and prefab up for use with the pool. 
+              */
+            void Awake()
+            {
+                _inactive = new ComponentList ();
+                _active = new ComponentList ();
+            }
 
             /**
               * @brief static find function
